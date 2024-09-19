@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nikko's Guess the Factor</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Nikko's Guess the Factor</h1>
+        <div id="topic-box" class="topic-box">Click Generate to start!</div>
+        <div class="buttons-container">
+            <button id="decrease-btn" class="category-btn">DECREASE MAC</button>
+            <button id="nochange-btn" class="category-btn">NO CHANGE</button>
+            <button id="increase-btn" class="category-btn">INCREASE MAC</button>
+        </div>
+        <button id="generate-btn" class="generate-btn" onclick="generateNewTopic()">Generate Topic</button>
+        <audio id="correct-sound" src="sounds/ta-da.mp3"></audio>
+        <audio id="wrong-sound" src="sounds/womp-womp.mp3"></audio>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
