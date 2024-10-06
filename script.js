@@ -9,12 +9,12 @@ const decreaseMAC = [
 
 const increaseMAC = [
     "Hyperthermia", "Excess pheomelanin production (red hair)", "Hypernatremia", "MAO inhibitors",
-    "Acute amphetamines", "Cocaine", "Ephedrine", "Chronic alcohol abuse?", "Young age*"
+    "Acute amphetamines", "Cocaine", "Ephedrine", "Chronic alcohol abuse WITH Enzyme Induction", "Young age*"
 ];
 
 const noChange = [
     "Duration of anesthesia?", "Gender", "Metabolic alkalosis", "PaCO2 between 15 and 95 mmHg",
-    "PaO2 > 38 mmHg", "Magnesium", "Hyperosmolality", "Chronic alcohol abuse", "Anesthetic metabolism",
+    "PaO2 > 38 mmHg", "Magnesium", "Hyperosmolality", "Chronic alcohol abuse WITHOUT Enzyme  Induction", "Anesthetic metabolism",
     "Blood pressure > 40 mmHg", "Thyroid gland dysfunction", "Hyperkalemia/hypokalemia"
 ];
 
